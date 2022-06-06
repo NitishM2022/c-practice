@@ -1,5 +1,5 @@
 #include <stdio.h>
-# define N 4
+# define N 8
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
             for(int i = 0; i < run; i++)
             {
                 count++;
-                putchar('I');
+                putchar(' ');
             }
             nc = nc+count;
         }
