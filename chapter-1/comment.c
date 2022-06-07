@@ -7,7 +7,7 @@ int main()
     {
         if(c == '\\' && (c = getchar()) != EOF && c == '\\')
         {
-            while((c = getchar()) != '\n')
+            while(c != EOF && c != '\n')
             {
                 c = getchar();
             }
